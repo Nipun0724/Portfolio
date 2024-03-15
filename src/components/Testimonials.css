@@ -1,0 +1,40 @@
+.testimonials{
+    margin-top: -25px;
+    height: 100%;
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/blue-futuristic-waves-background-with-computer-code-technology_53876-119584.png") center/cover no-repeat;
+}
+.testimonials h2{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.testimonials .dialog{
+    color: black;
+    height: 350px;
+    width: 400px;
+    border: 2px solid white;
+    clip-path: polygon(0 0,0 90%,20% 90%,20% 100%,30% 90%,100% 90%,100% 0);
+    background-color: aliceblue;
+}
+.testimonials .dialog p{
+    padding: 70px;
+}
+.testimonials .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+.testimonials .box img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.testimonials .box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+    padding: 20px 15% 100px 20%;
+}

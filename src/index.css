@@ -1,38 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 200vh;
-}
-.navbar {
-  background-color: #2b3467;
-  position: fixed;
-  top: 0;
-}
-.navbar ul {
-  display: flex;
-  align-items: center;
-  gap: 5rem;
-  margin-left: 100%;
-  list-style: none;
-}
-.navbar a {
-  text-decoration: none;
-  color: #fcffe7;
-  font-size: 20px;
-}
-.hero-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2b3467;
-}
-.hero-section img {
-  z-index: 1;
-}
-.title {
-  width: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  color: #fcffe7;
+  font-family: "Libre Bodoni", serif;
 }

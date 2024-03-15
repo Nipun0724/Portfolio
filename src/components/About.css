@@ -1,0 +1,60 @@
+.about{
+    height: 100vh;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: start;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/halftone-background-with-circles_23-2148907689.jpg") center/cover no-repeat;
+    overflow-y: hidden;
+}
+.coding{
+    margin-top: 80px;
+    flex: 3;
+    height: 80%;
+    margin-left: 10%;
+}
+.coding img{
+    height: 100%;
+    width: 100%;
+}
+.qualification{
+    margin-top: 80px;
+    flex: 2;
+    color: white;
+    height: 100%;
+    margin-right: 10%;
+    line-height: 30px;
+}
+.qualification img{
+    height: 40px;
+}
+.qualification li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -10%;
+    gap: 1rem;
+}
+.progressbar{
+    width: 200px;
+    height: 10px;
+    border: 2px solid #eb455f;
+    border-radius: 10px;
+    overflow: hidden
+}
+.progress{
+    width: 20%;
+    height: 10px;
+    background-color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+.css{
+    width: 85%;
+}
+.react{
+    width: 80%;
+}
+.node{
+    width: 65%;
+}
