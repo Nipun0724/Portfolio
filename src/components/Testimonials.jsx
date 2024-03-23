@@ -3,41 +3,45 @@ import "./Testimonials.css"
 const Testimonials = () => {
   return (
     <div className='testimonials'>
-      <h2>Testmonials</h2>
-      <div className="box-container">
-      <div className="box">
-        <div className="dialog">
-          <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam dignissimos commodi, vero dicta libero atque at ipsa natus eos laudantium?"
-            <br /><br />-Jane Doe, XYZ Inc 
-          </p>
+      <div className="container">
+    <div class="parent">
+        <div class="box1 card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus eius ex laboriosam dolorem maiores cum! Hic optio similique vitae.</p>
+          <div>
+          <img src="https://picsum.photos/id/237/50/50" alt="" />
+          <p>- Jane Doe, XYZ Inc.</p>
+          </div>
         </div>
-        <img src="https://picsum.photos/id/64/200/200" alt="" />
-      </div>
-      <div className="box">
-        <div className="dialog">
-          <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam dignissimos commodi, vero dicta libero atque at ipsa natus eos laudantium?"
-            <br /><br />-Jane Doe, XYZ Inc 
-          </p>
+        <div class="box2 card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus eius ex laboriosam dolorem maiores cum! Hic optio similique vitae.</p>
+          <div>
+          <img src="https://picsum.photos/id/237/50/50" alt="" />
+          <p>- Jane Doe, XYZ Inc.</p>
+          </div>
         </div>
-        <img src="https://picsum.photos/id/64/200/200" alt="" />
-      </div>
-      <div className="box">
-        <div className="dialog">
-          <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam dignissimos commodi, vero dicta libero atque at ipsa natus eos laudantium?"
-            <br /><br />-Jane Doe, XYZ Inc 
-          </p>
+        <div class="box3 card"> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus eius ex laboriosam dolorem maiores cum! Hic optio similique vitae.</p>
+          <div>
+          <img src="https://picsum.photos/id/237/50/50" alt="" />
+          <p>- Jane Doe, XYZ Inc.</p>
+          </div>
         </div>
-        <img src="https://picsum.photos/id/64/200/200" alt="" />
-      </div>
-      <div className="box">
-        <div className="dialog">
-          <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam dignissimos commodi, vero dicta libero atque at ipsa natus eos laudantium?"
-            <br /><br />-Jane Doe, XYZ Inc 
-          </p>
+        <div class="box4 card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus eius ex laboriosam dolorem maiores cum! Hic optio similique vitae.</p> 
+          <div>
+          <img src="https://picsum.photos/id/237/50/50" alt="" />
+          <p>- Jane Doe, XYZ Inc.</p>
+          </div>
         </div>
-        <img src="https://picsum.photos/id/64/200/200" alt="" />
-      </div>
-      </div>
+        <div class="box5 card"> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus eius ex laboriosam dolorem maiores cum! Hic optio similique vitae.</p>
+          <div>
+          <img src="https://picsum.photos/id/237/50/50" alt="" />
+          <p>- Jane Doe, XYZ Inc.</p>
+          </div>
+        </div>
+    </div>
+    </div>
     </div>
   )
 }

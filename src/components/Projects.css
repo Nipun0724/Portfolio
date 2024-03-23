@@ -1,77 +1,12 @@
 .projects{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/3607424.jpg") center/cover no-repeat;
     color: white;
-    margin-top: -20px;
-    text-align: center;
-    padding-bottom: 70px;
+    height: 100%;
+    padding: 40px 10%;
 }
-.projects h2{
-  padding-top: 100px;
-}
-.projects img{
-  height: 15px;
-}
-.back a{
+.project{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  color: white;
-}
-.project-cards{
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-.cardcontainer {
-    height: 300px;
-    width: 500px;
-    perspective: 600px;
-    padding: 5rem;
-  }
-  
-  .cardcontainer:hover > .flip {
-    transform: rotateY(180deg);
-  }
-  
-  .flip {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    transform-style: preserve-3d;
-    position: relative;
-    transition: transform 1000ms;
-  }
-  
-  .front,
-  .back {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/Screenshot\ 2024-02-28\ 111701.png") center/cover no-repeat;
-    color: white;
-    backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .back {
-    transform: rotateY(180deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.two{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/Screenshot\ 2024-02-28\ 143927.png") center/cover no-repeat;
-}
-.three{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/Screenshot\ 2024-02-28\ 144651.png") center/cover no-repeat;
-}
-.four{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/Screenshot\ 2024-02-28\ 170903.png") center/cover no-repeat;
+  gap: 100px;
 }
