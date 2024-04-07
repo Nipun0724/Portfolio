@@ -1,74 +1,72 @@
-.contact{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/istockphoto-1001279256-612x612.jpg") center/cover no-repeat;
-    height: 100vh;
-    margin-top: -25px;
-    color: white;
+.contact {
+  height: 100vh;
+  margin-top: -25px;
+  color: white;
+  margin-left: 7rem;
+  margin-bottom: 5rem;
+  position: relative;
 }
-.contact h2{
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 70px;
+.contact h2 {
+  padding-top: 200px;
+  padding-bottom: 10px;
 }
-.contact .container{
-    display: flex;
-    justify-content: start;
-    align-items:first baseline;
-    gap: 2rem;
+.contact .container1 {
+  display: flex;
+  justify-content: start;
+  align-items: first baseline;
+  gap: 2rem;
 }
-.contact .details{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 2rem;
-    flex: 3;
+.contact .details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  flex: 3;
 }
-.contact .input{
-    margin-left: 5%;
+.contact input {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 250px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  outline: none;
 }
-.contact input{
-    margin-left: 20px;
-    margin-right: 20px;
-    width:250px;
-    background: none;
-    border: none;
-    border-bottom: 2px solid white;
-    color: white;
-    outline: none;
+.contact textarea {
+  background: none;
+  outline: none;
+  border: 2px solid white;
+  width: 96%;
+  color: white;
 }
-.contact textarea{
-    background: none;
-    outline: none;
-    border: 2px solid white;
-    width: 96%;
-    color: white;
+.contact .socials {
+  flex: 1;
+  width: 25%;
 }
-.contact .socials{
-    flex: 1;
-    width: 25%;
+.contact img {
+  height: 25px;
 }
-.contact img{
-    height: 25px;
+.contact #btn {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px 10px;
+  margin-left: 0;
+  margin-top: 20px;
 }
-.contact #btn{
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    width: 100px;
-    padding: 5px 10px;
-    margin-left: 0;
-    margin-top: 20px;
+.contact .links1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-.contact .links{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.contact .links1 img {
+  height: 30px;
 }
-.contact .links img{
-    height: 30px;
+.contact .special {
+  height: 35px;
 }
-.contact .special{
-    height: 35px;
-}
-.contact .links .special{
-    height: 35px;
+.contact .links1 .special {
+  height: 35px;
 }
