@@ -1,8 +1,14 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView, useAnimation } from "framer-motion";
 import "./Header.css";
-import comp from "../assets/vecteezy_cute-astronaut-working-in-front-of-his-computer_-removebg-preview.png";
 const Header = () => {
+  const controls = useAnimation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true });
+  if (inView) {
+    controls.start("visible");
+  }
   const [typeEffect] = useTypewriter({
     words: [" Programmer.", " Innovater.", " Designer.", " Web Developer."],
     loop: {},
@@ -10,14 +16,23 @@ const Header = () => {
     deleteSpeed: 40,
   });
   return (
-    <div className="hero-section">
+    <motion.div
+      className="hero-section"
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0.8, x: -200 },
+        visible: { opacity: 1, x: 0 },
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1 }}
+    >
       <div className="title">
         <h1>
           I'm a<span>{typeEffect}</span>
         </h1>
-        <img src={comp} alt="" />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

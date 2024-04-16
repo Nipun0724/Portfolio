@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView, useAnimation } from "framer-motion";
 import "./Contact.css";
 import phone from "../assets/white-phone-icon-vector-7151422.png";
 import location from "../assets/360_F_149544314_UcRXtS7SJVBBFUYVJGA88LWgbimCMsfg.png";
@@ -7,8 +8,24 @@ import github from "../assets/icons8-github-26.png";
 import facebook from "../assets/icons8-facebook-24.png";
 import twitterx from "../assets/icons8-twitterx-50.png";
 const Contact = () => {
+  const controls = useAnimation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true });
+  if (inView) {
+    controls.start("visible");
+  }
   return (
-    <div className="contact">
+    <motion.div
+      className="contact"
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0.8, x: -200 },
+        visible: { opacity: 1, x: 0 },
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1 }}
+    >
       <h2>Contact Me</h2>
 
       <div className="container1">
@@ -52,7 +69,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

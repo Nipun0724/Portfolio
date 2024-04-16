@@ -6,5 +6,8 @@ body {
   font-family: "Libre Bodoni", serif;
 }
 body {
-  background: url("assets/Parallax\ Star\ background\ in\ CSS.jpg");
+  background-color: #000;
+}
+::-webkit-scrollbar {
+  width: 15px;
 }
