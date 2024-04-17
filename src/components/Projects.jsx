@@ -15,6 +15,7 @@ const Projects = () => {
   return (
     <motion.div
       className="projects"
+      id="projects"
       ref={ref}
       variants={{
         hidden: { opacity: 0.8, x: -200 },

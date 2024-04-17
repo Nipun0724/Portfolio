@@ -18,6 +18,7 @@ const Header = () => {
   return (
     <motion.div
       className="hero-section"
+      id="home"
       ref={ref}
       variants={{
         hidden: { opacity: 0.8, x: -200 },

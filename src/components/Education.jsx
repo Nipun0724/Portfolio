@@ -11,6 +11,7 @@ const Education = () => {
   return (
     <motion.div
       className="education"
+      id="education"
       ref={ref}
       variants={{
         hidden: { opacity: 0.8, x: -200 },

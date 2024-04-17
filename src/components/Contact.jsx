@@ -17,6 +17,7 @@ const Contact = () => {
   return (
     <motion.div
       className="contact"
+      id="contact"
       ref={ref}
       variants={{
         hidden: { opacity: 0.8, x: -200 },
@@ -29,7 +30,7 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       <div className="container1">
-        <div className="input">
+        <form className="input">
           <label htmlFor="name">Name :</label>
           <input type="text" id="name" />
           <label htmlFor="email">Email :</label>
@@ -38,7 +39,7 @@ const Contact = () => {
           <p>Enter your Email: </p>
           <textarea name="" id="" cols="43" rows="10"></textarea>
           <input type="submit" id="btn" />
-        </div>
+        </form>
         <div className="socials">
           <h3>Contact Info</h3>
           <div className="details">
@@ -54,16 +55,22 @@ const Contact = () => {
           </div>
           <h3>Social Media</h3>
           <div className="links1">
-            <a href="#">
+            <a href="https://www.facebook.com/nipun.nair.1/" target="_blank">
               <img src={facebook} alt="" className="special" />
             </a>
-            <a href="#">
+            <a
+              href="https://github.com/Nipun0724?tab=repositories"
+              target="_blank"
+            >
               <img src={github} alt="" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/nipun-nair-3ba1a4271/"
+              target="_blank"
+            >
               <img src={linkdein} alt="" />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/nipun_nair" target="_blank">
               <img src={twitterx} alt="" />
             </a>
           </div>

@@ -53,6 +53,7 @@ const About = () => {
   return (
     <motion.div
       className="about"
+      id="about"
       ref={ref}
       variants={{
         hidden: { opacity: 0.9, x: -100 },
