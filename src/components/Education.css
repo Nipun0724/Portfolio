@@ -1,3 +1,4 @@
+/* Styles for the education section */
 .education {
   color: white;
   min-height: 100vh;
@@ -5,19 +6,27 @@
   width: 80vw;
   margin-top: 150px;
 }
+
+/* Styles for columns in education section */
 .education .col-edu {
   border: none;
 }
+
+/* Styles for rows in education section */
 .education .row-edu {
   display: flex;
   justify-content: center;
   align-items: start;
   gap: 3rem;
 }
+
+/* Styles for contents of each column */
 .education .col-edu .contents-edu {
   padding: 0px 40px;
   border-left: 2px solid #dcfe50;
 }
+
+/* Styles for education boxes */
 .education .col-edu .contents-edu .box-edu {
   border: 1px solid #dcfe50;
   position: relative;
@@ -26,6 +35,8 @@
   transition: all 0.4s;
   margin-bottom: 30px;
 }
+
+/* Styles for the dot before each education box */
 .education .col-edu .box-edu::before {
   content: " ";
   position: absolute;
@@ -37,19 +48,27 @@
   background-color: #dcfe50;
   border: 2px solid white;
 }
+
+/* Hover effect for education boxes */
 .education .col-edu .box-edu:hover {
   box-shadow: 5px 5px #dcfe50;
   border: 1px solid transparent;
 }
+
+/* Styles for headings */
 .education h4,
 h2 {
   color: #dcfe50;
 }
+
+/* Media query for smaller screens */
 @media (max-width: 900px) {
   .education .row-edu {
     display: block;
   }
 }
+
+/* Styles for CGPA */
 .education .cgpa {
   color: #dcfe50;
 }

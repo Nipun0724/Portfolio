@@ -6,53 +6,70 @@
   margin-bottom: 5rem;
   position: relative;
 }
+
+/* Contact Me header */
 .contact h2 {
   padding-top: 200px;
   padding-bottom: 10px;
   text-align: center;
-  color: #dcfe50;
+  color: #dcfe50; /* Yellow color for header */
 }
+
 .contact h3 {
-  color: #dcfe50;
+  color: #dcfe50; /* Yellow color for subheadings */
 }
+
+/* Container for form and social media links */
 .contact .container1 {
   display: flex;
   justify-content: start;
   align-items: first baseline;
   gap: 2rem;
 }
+
+/* Details container */
 .contact .details {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 2rem;
-  flex: 3;
+  flex: 3; /* Take up 3/4th of the available space */
 }
+
+/* Styling for input fields */
 .contact input {
   margin-left: 20px;
   margin-right: 20px;
   width: 250px;
   background: none;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid white; /* White border bottom */
   color: white;
   outline: none;
 }
+
+/* Styling for textarea */
 .contact textarea {
   background: none;
   outline: none;
-  border: 2px solid white;
+  border: 2px solid white; /* White border */
   width: 94%;
   color: white;
   padding: 10px;
 }
+
+/* Social media section */
 .contact .socials {
-  flex: 1;
+  flex: 1; /* Take up 1/4th of the available space */
   width: 25%;
 }
+
+/* Styling for icons */
 .contact img {
   height: 25px;
 }
+
+/* Styling for submit button */
 .contact #btn {
   width: 200px;
   margin-left: 0;
@@ -65,21 +82,29 @@
   border: 2px solid white;
   cursor: pointer;
 }
+
+/* Hover effect for submit button */
 .contact #btn:hover {
-  background-color: #dcfe50;
-  color: black;
+  background-color: #dcfe50; /* Yellow background on hover */
+  color: black; /* Black text on hover */
 }
+
+/* Styling for social media links */
 .contact .links1 {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
+
 .contact .links1 img {
   height: 30px;
 }
+
+/* Special styling for specific icons */
 .contact .special {
   height: 35px;
 }
+
 .contact .links1 .special {
   height: 35px;
 }

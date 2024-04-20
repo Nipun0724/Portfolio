@@ -1,14 +1,22 @@
 import React, { useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import "./Education.css";
+
 const Education = () => {
+  // Animation controls
   const controls = useAnimation();
+
+  // Ref for in-view detection
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
+
+  // Start animation when in view
   if (inView) {
     controls.start("visible");
   }
+
   return (
+    // Education section with motion animation
     <motion.div
       className="education"
       id="education"
@@ -23,9 +31,11 @@ const Education = () => {
     >
       <div className="container-edu">
         <div className="row-edu">
+          {/* Education column */}
           <div className="col-edu">
             <h2 className="title-edu">Education</h2>
             <div className="contents-edu">
+              {/* Education boxes */}
               <div className="box-edu">
                 <h4>2022-2026</h4>
                 <h4>B.tech in Computer Science</h4>
@@ -49,9 +59,11 @@ const Education = () => {
               </div>
             </div>
           </div>
+          {/* Experience column */}
           <div className="col-edu">
             <h2 className="title-edu">Experience</h2>
             <div className="contents-edu">
+              {/* Experience boxes */}
               <div className="box-edu">
                 <h4>2024-</h4>
                 <h4>Web Developer Head</h4>

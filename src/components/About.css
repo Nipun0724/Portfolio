@@ -1,3 +1,4 @@
+/* Styles for the about section */
 .about {
   height: 100%;
   display: flex;
@@ -8,71 +9,83 @@
   margin-left: 23%;
   margin-top: 90px;
 }
+
+/* Styles for the heading in the about section */
 .about h2 {
   margin-left: 32.5%;
   margin-bottom: 6%;
   color: #dcfe50;
 }
-.about .backend {
-  text-align: right;
-}
 
+/* Styles for qualifications */
 .qualification {
   color: white;
   height: 100%;
   line-height: 30px;
 }
+
+/* Styles for images in qualifications */
 .qualification img {
   height: 40px;
 }
+
+/* Styles for list items in qualifications */
 .qualification li {
   display: flex;
   justify-content: left;
   align-items: center;
   gap: 1rem;
 }
+
+/* Styles for progress bar container */
 .progressbar {
   width: 200px;
   height: 6px;
   overflow: hidden;
   background-color: #585858;
 }
+
+/* Styles for progress bar */
 .progress {
   width: 20%;
   height: 6px;
   background-color: #dcfe50;
 }
+
+/* Additional progress bar styles */
 .progressbar1 {
   width: 200px;
   height: 6px;
   overflow: hidden;
   background-color: #dcfe50;
 }
+
 .progress1 {
   width: 20%;
   height: 10px;
   background-color: #585858;
 }
+
+/* Styles for skill containers */
 .css {
   width: 85%;
 }
+
 .react {
   width: 80%;
 }
+
 .node {
   width: 65%;
 }
+
+/* Styles for skills container */
 .skills-container {
   display: flex;
   gap: 3rem;
 }
-.frontend {
-  padding: 0;
-}
-.about h3 {
-  margin-bottom: 10%;
-  color: #dcfe50;
-}
+
+/* Styles for my skill section */
 .about .myskill {
   text-align: center;
   width: 50%;
