@@ -3,15 +3,16 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("../assets/background.png") center/cover no-repeat;
+  background: url("../assets/background2.png") center/cover no-repeat;
   background-attachment: fixed;
 }
+
 .title {
   width: 700px;
   color: #fcffe7;
-  margin-left: -200px;
+  margin-left: -250px;
   height: 200px;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   color: #fbfeeb;
 }
 .title span {

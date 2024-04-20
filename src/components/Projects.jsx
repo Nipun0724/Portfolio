@@ -31,10 +31,16 @@ const Projects = () => {
           <img className="front" src={delish} alt="" />
           <h3>Project One</h3>
           <div className="btn-container">
-            <a href="https://github.com/Nipun0724/DelishDash-main">
+            <a
+              target="_blank"
+              href="https://github.com/Nipun0724/DelishDash-main"
+            >
               <button>Github</button>
             </a>
-            <a href="https://6618f4b8a3d77aaa73bd0e3c--hilarious-dragon-d26dff.netlify.app/">
+            <a
+              target="_blank"
+              href="https://6618f4b8a3d77aaa73bd0e3c--hilarious-dragon-d26dff.netlify.app/"
+            >
               <button>Website</button>
             </a>
           </div>
@@ -43,10 +49,10 @@ const Projects = () => {
           <img className="front" src={weather} alt="" />
           <h3>Project Two</h3>
           <div className="btn-container">
-            <a href="https://github.com/Nipun0724/Weather">
+            <a target="_blank" href="https://github.com/Nipun0724/Weather-App">
               <button>Github</button>
             </a>
-            <a href="https://nipunweather.netlify.app/">
+            <a target="_blank" href="https://nipunweather2.netlify.app/">
               <button>Website</button>
             </a>
           </div>
@@ -55,10 +61,16 @@ const Projects = () => {
           <img className="front" src={vortex} alt="" />
           <h3>Project Three</h3>
           <div className="btn-container">
-            <a href="https://github.com/Nipun0724/Vortex-360-Event-2025">
+            <a
+              target="_blank"
+              href="https://github.com/Nipun0724/Vortex-360-Event-2025"
+            >
               <button>Github</button>
             </a>
-            <a href="https://transcendent-gnome-9ce8a6.netlify.app/">
+            <a
+              target="_blank"
+              href="https://transcendent-gnome-9ce8a6.netlify.app/"
+            >
               <button>Website</button>
             </a>
           </div>

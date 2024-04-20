@@ -1,4 +1,4 @@
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 import React, { useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import "./Header.css";
@@ -28,6 +28,7 @@ const Header = () => {
       animate={controls}
       transition={{ duration: 1 }}
     >
+      {/* <img src={profile} alt="" /> */}
       <div className="title">
         <h1>
           I'm a<span>{typeEffect}</span>
